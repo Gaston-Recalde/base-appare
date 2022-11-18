@@ -34,12 +34,6 @@ body{
     margin: 0 auto;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* height: 100vh; */
-    /* max-width: 1440px; */
 }
 
 .contenedor{
@@ -125,6 +119,23 @@ input::placeholder{
     right: 35px;
 }
 
+.input__error{
+    color: var(--desaturated-red);
+    padding: 10px 0 0 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.icon__error{
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+}
+
+.no__error{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     .contenedor{
         width: 90%;
@@ -144,6 +155,10 @@ input::placeholder{
         position: absolute;
         right: 0;
     }
+
+    .icon__error{
+        right: 70px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -154,7 +169,6 @@ input::placeholder{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
     }
 
     .contenedor{
@@ -243,6 +257,12 @@ input::placeholder{
         position: absolute;
         right: 0;
     }
+
+    .icon__error{
+        right: 20%;
+        margin-top: inherit;
+        top: 15%;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -252,7 +272,7 @@ input::placeholder{
 
     .container{
         width: 475px;
-    }
+    }   
 }
 
 .attribution { font-size: 11px; text-align: center; margin-top: 35px; padding-bottom: 25px;}

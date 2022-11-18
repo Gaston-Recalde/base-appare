@@ -15,7 +15,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/base-apparel.png)
 
 ### Links
 

@@ -25,9 +25,11 @@
       <h1 class="info__h1">We're <span>coming soon</span></h1>
       <p class="info__p">Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
-      <form class="form">
-          <input class="form__input" type="text" placeholder="Email Address">
-          <button class="form__button"><img src="./images/icon-arrow.svg" alt="Icono Flecha"></button>
+      <form class="form" id="form">
+          <input class="form__input" id="input" type="text" placeholder="Email Address">
+          <button class="form__button" type="submit" id="button__form"><img src="./images/icon-arrow.svg" alt="Icono Flecha"></button>
+          <img src="./images/icon-error.svg" alt="Error" class="no__error" id="img__error">
+          <p class="no__error" id="p__input">Please provide a valid email</p>
       </form>
     </div>
     
@@ -40,5 +42,6 @@
     </p>
   </footer>
 
+  <script src="./app.js"></script>
 </body>
 </html>
