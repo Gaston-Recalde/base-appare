@@ -19,7 +19,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://gentle-boba-6af19d.netlify.app)
 
 ## My process
 
