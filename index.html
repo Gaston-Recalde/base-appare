@@ -2,32 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Base Apparel coming soon page</title>
 </head>
 <body>
 
-  We're coming soon
+  <main class="main contenedor">
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <header class="header container">
+      <img src="./images/logo.svg" alt="Logo Base Apparel" class="header__logo">
+    </header>
+    
+    <img src="./images/hero-desktop.jpg" alt="Logo Hero" class="img__header__desktop">
+    <img src="./images/hero-mobile.jpg" alt="Logo Hero" class="img__header__mobile">
 
-  Email Address
-  
+    <div class="info container">
+
+      <h1 class="info__h1">We're <span>coming soon</span></h1>
+      <p class="info__p">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form class="form">
+          <input class="form__input" type="text" placeholder="Email Address">
+          <button class="form__button"><img src="./images/icon-arrow.svg" alt="Icono Flecha"></button>
+      </form>
+    </div>
+    
+  </main>
+
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
     </p>
   </footer>
+
 </body>
 </html>
